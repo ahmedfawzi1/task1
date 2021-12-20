@@ -1,0 +1,91 @@
+/* body{
+    height: 6000px;
+} */
+.navbar {
+    background-color: white;
+
+
+}
+
+.carousel-inner {
+    position: relative;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: 2px auto;
+}
+
+.hr {
+    background-color: brown;
+}
+
+.hr {
+    width: 35%;
+    height: 3px;
+    margin: auto;
+
+    background: linear-gradient(to right, rgb(78, 87, 0), yellow, rgb(78, 87, 0));
+}
+.hrbuynow{
+    width: 35%;
+    height: 3px;
+    margin: 3px auto;
+    background:linear-gradient(to right, black, yellow, black) ;
+
+}
+
+.aboutus {
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ourproducts .hr {
+    width: 35%;
+    height: 3px;
+    margin: auto;
+
+    background: linear-gradient(to right, rgb(78, 87, 0), yellow, rgb(78, 87, 0));
+}
+
+.nav-tabs {
+    background-color: black;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 12.5px;
+}
+
+.nav-tabs .nav-link {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media(max-width:600px) {
+    .nav-tabs {
+        background-color: black;
+        width: 100%;
+        border-radius: 12.5px;
+    }
+
+}
+
+@media(max-width:600px) {
+    .tab-pane img {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-links {
+    padding-left: 0%;
+    list-style: none;
+}
